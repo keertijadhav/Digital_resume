@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style >
+		div{
+			background: #1E9600;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		button{
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+	<form>
+<center>
+	<div>
+		<br>
+<h1>Registration form</h1>
+<label> first name</label>
+<input type="text" name="firstname" placeholder="enter your first name" minlength="4" maxlength="10" required>
+<br>
+<br>
+<label> Last name</label>
+<input type="text" name="lastname" placeholder="enter last name" minlength="4" maxlength="10" required>
+<br>
+<br>
+<label>Email</label>
+<input type="email" name="emailid" placeholder="enter your emalid">
+<br>
+<br>
+<label>Password</label>
+<input type="password" name="pass" required minlength="6" maxlength="8" placeholder="enter password">
+<br>
+<br>
+<label>Contact No</label>
+<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="enter your contact no" minlength="10" maxlength="10" required>
+<br>
+<br>
+<label>Enter DOB</label>
+<input type="date" name="bday" required>
+<br>
+<br>
+<label>Chooes course</label>
+<input type="checkbox">AWS
+<input type="checkbox">JAVA
+<input type="checkbox">Cloud Computing
+<input type="checkbox">android
+<br>
+<br>
+<label>Gender</label>
+<input type="radio" name="gender">female
+<input type="radio" name="gender">male
+<br>
+<br>
+
+<label>Enter your address</label>
+<textarea cols="50" rows="4" style="resize: none;">
+	
+</textarea>
+<br>
+<br>
+<label>Select city</label>
+<select size="2">
+	<option>Kolhaur</option>
+	<option>mumbai</option>
+	<option>pune</option>
+	<option>satara</option>
+	<option>akola</option>
+</select>
+<br>
+<br>
+
+<label>Upload your photo</label>
+<input type="file" multiple>
+<br>
+<br>
+<button type="submit" value="Login">Login</button> 
+<br>
+<br>
+</div>
+</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<style>
+		body{
+			background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		
+		input{
+			background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		textarea{
+			background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		h3{
+			background-color: red;
+		}
+	</style>
+	<body>
+		<form>
+			<h3 align="center"> Registration Form</h3>
+			<table align="center" cellpadding="5px" border="1" cellspacing="0" width="40%">
+				<tr>
+					<td> Student Name</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td> Father's Name</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td> Mother's Name</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td> Date Of Birth</td>
+					<td><input type="date" /></td>
+				</tr>
+				<tr>
+					<td>Gender </td>
+					<td>
+						<input type="radio" name="male" /><label>Male</label>
+						<input type="radio" name="female"/><label>Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Email ID</td>
+					<td><input type="email" /></td>
+				</tr>
+
+				<tr>
+					<td>Mobile No.</td>
+					<td><input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="10" maxlength="10" required></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td><textarea>
+						
+					</textarea></td>
+				</tr>
+				
+				<tr>
+					<td>State</td>
+					<td><input type="text" placeholder="Enter State"/></td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td><input type="text" placeholder="Enter City"/></td>
+				</tr>
+				
+				
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Submit"/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
